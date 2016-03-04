@@ -1,0 +1,188 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by UNIFACE - (C) Compuware Corporation -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-07-03T17:38:51.00</DAT>
+<DAT name="USUB">P</DAT>
+<DAT name="UVAR">UO</DAT>
+<DAT name="ULABEL">G_VALIDATE_FIELD</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Dynamic field validation</DAT>
+<DAT name="UTEXT" xml:space='preserve'>; Global Procedure G_VALIDATE_FIELD(SEQ)
+; Descr: Process dynamic validation on current field.
+;
+; Implementation can be 
+; S: SQL statement
+; E: Expression statement
+; C: Condition statement
+;
+; Action codes:  
+; T : Stop if result is true return (-1)
+; Z : Stop if result is true return (0)
+; F : Stop if result is false return(-1)
+; C : Always continue: return (0)
+;
+;------------------------------------------------------
+params
+   numeric sequence :in
+endparams
+variables
+   string  mess,implementationcd,action,truemsg,falsemsg,receivingfield,rulestatement, fieldname, orignalresult, stat
+   numeric startpos, endpos
+endvariables
+
+activate "SYSS_500".GET_VALIDATE_FIELD($variation,$componentname,$fieldname,$entname,$modelname,sequence,implementationcd,action,truemsg,falsemsg,receivingfield,rulestatement)
+if ($status=-2|$status=-4) return 0						       ; No validation record found for this field
+if ($status&lt;0)  return $status
+
+
+call G_SUBSTITUDE_FLD(rulestatement,rulestatement)    	; If rulestatement contains a field (%%name): replace %%name for the contents of it
+putmess "Rule found for %%$fieldname: %%rulestatement"	; Only for showing purpose: Just to show info in message window
+
+SelectCase Implementationcd
+   case "S" 										; SQL business rule
+          $ioprint=32							; Will show SQL statement in message window
+          clrmess
+          Putmess "Changing $ioprint: Implementation: %%implementationcd, Action: %%action, Rule: %%rulestatement"
+
+          sql rulestatement, "def"				; Execite SQL in the default path
+  		  if ($procerror =-3)
+  			  message/error "Error in SQL statement see message frame"
+              return (-1)
+          endif
+          if (receivingfield="$$tempfield" | receivingfield="")	; Global variables do not work with @indirection at this point
+             $$tempfield = $result  
+          else
+  			@receivingfield = $result          		; Indirection only works with painted fields
+          endif
+          putmess "Result: %%$result"				; Only for showing purpose
+          $ioprint=0								; Only for showing purpose
+          if ($result = "" | $result = "0")    		; Null and 0 are used in SQL as beiing False
+              if (falsemsg!="")
+                  call G_SUBSTITUDE_FLD(falsemsg,falsemsg) ; Replace %%fieldname if used in message with its contents 
+                  message/info falsemsg			; Show the message to the user
+              endif
+              if (action ="F")
+                  field_video $fieldname, "col=4"	; Color the field, the leave field trigger will reset the color
+                  return(-1)
+              endif
+          else
+              if (truemsg!= "")
+                  call G_SUBSTITUDE_FLD(truemsg,truemsg) ; replace %%fieldname if used in message with its contents 
+                  if (action ="T")  message/error truemsg; Stop at true will give an error message
+                  if (action !="T") message truemsg	 ; Continue will give a line message
+              endif
+              if (action ="T")
+                  field_video $fieldname, "col=4"
+                  return(-1)
+              endif
+          endif
+
+   case "E"										; Process Expression rule
+         stat =  $expression(rulestatement)
+ 		if ($procerror &lt;0)						; Check if the expression statement is correct
+    			getitem/id mess,$Procerrorcontext,"DESCRIPTION"
+    			message/error "Error in expression: %%mess"		; Procerrorcontext
+    			return (-1)
+		endif
+        if (receivingfield="$$tempfield")	              ; Global variables do not work with indirection at this point
+            $$tempfield = $expression(rulestatement)	; Execute the Expression rule
+        elseif (receivingfield= "$result")
+            $result = $expression(rulestatement)	; Execute the Expression rule
+        else
+            @receivingfield = $expression(rulestatement); Execute the Expression rule
+        endif
+
+   case "C"										; Process Condition rule
+		stat = $condition(rulestatement)
+		if ($procerror &lt;0)						; Check if the condition statement is correct
+  			getitem/id mess,$Procerrorcontext,"DESCRIPTION"
+	 		message/error "Error in condition: %%mess"
+   			return (-1)
+		endif
+		if ($condition(rulestatement))			; Execute the Condition
+            if (truemsg!= "")
+                 call G_SUBSTITUDE_FLD(truemsg,truemsg) ; Replace %%fieldname if used in message with its contents 
+                 if (action ="T")  message/error truemsg; Stop at true will give an error message
+                 if (action !="T") message truemsg	; Continue will give a line message
+            endif
+            if (action ="T")
+               field_video $fieldname, "col=4"		; Color the field
+               return(-1)
+            endif
+            if (action ="Z")  return(0)
+		else
+            if (falsemsg!="")
+               call G_SUBSTITUDE_FLD(falsemsg,falsemsg) ; Replace %%fieldname if used in message with its contents 
+               message/info falsemsg
+            endif
+            if (action ="F")
+               field_video $fieldname, "col=4"
+               return(-1)
+            endif
+            if (action ="N")  return(0)
+		endif
+endselectcase
+
+if (action != "") 
+  sequence = sequence +1
+  call G_VALIDATE_FIELD(sequence)           		; Recursive use of this global procedure, Uniface can do that 255 times
+  return $status
+endif
+
+field_video $fieldname, ""						; No errors found, reset the color, also the leave field trigger will reset the color
+
+
+</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

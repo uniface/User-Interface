@@ -1,0 +1,209 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by UNIFACE - (C) Compuware Corporation -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-07-03T17:38:51.00</DAT>
+<DAT name="USUB">P</DAT>
+<DAT name="UVAR">UO</DAT>
+<DAT name="ULABEL">G_SNAP</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Snap all functions</DAT>
+<DAT name="UTEXT" xml:space='preserve'>params
+ string Func :out
+endparams
+Func = "%%^ All system functions %%^%%^"
+
+Func = "%%Func %%^ 	$procerror		=	%%$procerror"
+Func = "%%Func %%^ 	$procerrorcontext	=	%%$procerrorcontext"
+Func = "%%Func %%^"
+Func = "%%Func %%^	$applname		=	%%$applname"
+Func = "%%Func %%^ 	$appltitle		=	%%$appltitle"
+Func = "%%Func %%^ 	$batch			=	%%$batch"
+Func = "%%Func %%^ 	$char			=	%%$char"
+Func = "%%Func %%^ 	$check			=	%%$check"
+Func = "%%Func %%^ 	$clock			=	%%$clock"
+Func = "%%Func %%^ 	$collhandle		=	%%$collhandle($entname)"
+Func = "%%Func %%^ 	$componentname		=	%%$componentname"
+Func = "%%Func %%^ 	$componenttype		=	%%$componenttype"
+;Func = "%%Func %%^ 	$concat	=	%%$concat"
+Func = "%%Func %%^ 	$curhits		=	%%$curhits"
+Func = "%%Func %%^ 	$curkey			=	%%$curkey"
+Func = "%%Func %%^ 	$curline		=	%%$curline"
+Func = "%%Func %%^ 	$curocc			=	%%$curocc"
+Func = "%%Func %%^ 	$curword		=	%%$curword"
+Func = "%%Func %%^ 	$dataerrorcontext	=	%%$dataerrorcontext"
+Func = "%%Func %%^ 	$date			=	%%$date"
+Func = "%%Func %%^ 	$datim			=	%%$datim"
+Func = "%%Func %%^ 	$dberror		=	%%$dberror"
+Func = "%%Func %%^ 	$dbocc			=	%%$dbocc"
+Func = "%%Func %%^ 	$detachedinstances	=	%%$detachedinstances"
+Func = "%%Func %%^ 	$direction		=	%%$direction"
+Func = "%%Func %%^ 	$disable		=	%%$disable"
+Func = "%%Func %%^ 	$display		=	%%$display"
+Func = "%%Func %%^ 	$editmode		=	%%$editmode"
+Func = "%%Func %%^ 	$empty			=	%%$empty"
+Func = "%%Func %%^ 	$entinfo		=	%%$entinfo($entname,'DBMSPATH')"
+Func = "%%Func %%^ 	$entityproperties	=	%%$entityproperties"
+Func = "%%Func %%^ 	$entname		=	%%$entname"
+Func = "%%Func %%^ 	$error			=	%%$error"
+Func = "%%Func %%^ 	$fieldcheck		=	%%$fieldcheck"
+Func = "%%Func %%^ 	$fielddbmod		=	%%$fielddbmod"
+Func = "%%Func %%^ 	$fielddbvalue		=	%%$fielddbvalue"
+Func = "%%Func %%^ 	$fieldendmod		=	%%$fieldendmod"
+Func = "%%Func %%^ 	$fieldindb		=	%%$fieldindb"
+Func = "%%Func %%^ 	$fieldinfo		=	%%$fieldinfo($fieldname,'DATATYPE')"
+Func = "%%Func %%^ 	$fieldmod		=	%%$fieldmod"
+Func = "%%Func %%^ 	$fieldname		=	%%$fieldname"
+Func = "%%Func %%^ 	$fieldprofile		=	%%$fieldprofile"
+Func = "%%Func %%^ 	$fieldproperties	=	%%$fieldproperties"
+Func = "%%Func %%^ 	$fieldvalidation	=	%%$fieldvalidation"
+Func = "%%Func %%^ 	$fieldvalrep		=	%%$fieldvalrep"
+Func = "%%Func %%^ 	$foreign		=	%%$foreign($entname)"
+Func = "%%Func %%^ 	$format			=	%%$format"
+Func = "%%Func %%^ 	$formdb			=	%%$formdb"
+Func = "%%Func %%^ 	$formdbmod		=	%%$formdbmod"
+Func = "%%Func %%^ 	$formfocus		=	%%$formfocus"
+Func = "%%Func %%^ 	$formmod		=	%%$formmod"
+Func = "%%Func %%^ 	$formmodality		=	%%$formmodality"
+Func = "%%Func %%^ 	$formname		=	%%$formname"
+Func = "%%Func %%^ 	$formtitle		=	%%$formtitle"
+Func = "%%Func %%^ 	$framedepth		=	%%$framedepth"
+Func = "%%Func %%^ 	$gui			=	%%$gui"
+Func = "%%Func %%^ 	$hide			=	%%$hide"
+Func = "%%Func %%^ 	$hits			=	%%$hits"
+Func = "%%Func %%^ 	$instancechildren	=	%%$instancechildren"
+Func = "%%Func %%^ 	$instancedb		=	%%$instancedb"
+Func = "%%Func %%^ 	$instancedbmod		=	%%$instancedbmod"
+Func = "%%Func %%^ 	$instancehandle		=	%%$instancehandle"
+Func = "%%Func %%^ 	$instancemod		=	%%$instancemod"
+Func = "%%Func %%^ 	$instancename		=	%%$instancename"
+Func = "%%Func %%^ 	$instanceparent		=	%%$instanceparent"
+Func = "%%Func %%^ 	$instancepath		=	%%$instancepath"
+;Func = "%%Func %%^ 	$instances		=	%%$instances($instancename)"
+Func = "%%Func %%^ 	$instancevalidation	=	%%$instancevalidation"
+Func = "%%Func %%^ 	$interactive		=	%%$interactive"
+Func = "%%Func %%^ 	$ioprint		=	%%$ioprint"
+Func = "%%Func %%^ 	$keyboard		=	%%$keyboard"
+;Func = "%%Func %%^ 	$keycheck	=	%%$keycheck"
+Func = "%%Func %%^ 	$keyfields		=	%%$keyfields($entname, 1)"
+Func = "%%Func %%^ 	$keymod			=	%%$keymod($entname, 1)"
+Func = "%%Func %%^ 	$keytype		=	%%$keytype($entname, 1)"
+Func = "%%Func %%^ 	$keyvalidation		=	%%$keyvalidation($entname, 1)"
+Func = "%%Func %%^ 	$language		=	%%$language"
+Func = "%%Func %%^ 	$lines			=	%%$lines"
+;Func = "%%Func %%^ 	$logical	=	%%$logical"
+;Func = "%%Func %%^ 	$lowercase	=	%%$lowercase"
+;Func = "%%Func %%^ 	$ltrim	=	%%$ltrim"
+Func = "%%Func %%^ 	$msgdata		=	%%$msgdata"
+Func = "%%Func %%^ 	$msgdst			=	%%$msgdst"
+Func = "%%Func %%^ 	$msgid			=	%%$msgid"
+;Func = "%%Func %%^ 	$msginfo		=	%%$msginfo"
+Func = "%%Func %%^ 	$msgsrc			=	%%$msgsrc"
+Func = "%%Func %%^ 	$next			=	%%$next"
+Func = "%%Func %%^ 	$nls_sort_order		=	%%$nls_sort_order"
+Func = "%%Func %%^ 	$nmforms		=	%%$nmforms"
+;Func = "%%Func %%^ 	$number	=	%%$number"
+Func = "%%Func %%^ 	$occcheck		=	%%$occcheck"
+Func = "%%Func %%^ 	$occcrc			=	%%$occcrc"
+Func = "%%Func %%^ 	$occdbmod		=	%%$occdbmod"
+Func = "%%Func %%^ 	$occdel			=	%%$occdel"
+Func = "%%Func %%^ 	$occdepth		=	%%$occdepth"
+Func = "%%Func %%^ 	$occhandle		=	%%$occhandle"
+Func = "%%Func %%^ 	$occmod			=	%%$occmod"
+Func = "%%Func %%^ 	$occproperties		=	%%$occproperties"
+Func = "%%Func %%^ 	$occstatus		=	%%$occstatus"
+Func = "%%Func %%^ 	$occvalidation		=	%%$occvalidation"
+;Func = "%%Func %%^ 	$ocxhandle	=	%%$ocxhandle"
+Func = "%%Func %%^ 	$oprsys			=	%%$oprsys"
+Func = "%%Func %%^ 	$outer			=	%%$outer"
+Func = "%%Func %%^ 	$page			=	%%$page"
+Func = "%%Func %%^ 	$paintedocc		=	%%$paintedocc"
+;Func = "%%Func %%^ 	$password		=	%%$password"
+Func = "%%Func %%^ 	$previous		=	%%$previous"
+Func = "%%Func %%^ 	$printing		=	%%$printing"
+Func = "%%Func %%^ 	$prompt			=	%%$prompt"
+Func = "%%Func %%^ 	$properties		=	%%$properties"
+;Func = "%%Func %%^ 	$putmess	=	%%$putmess"
+Func = "%%Func %%^ 	$relation		=	%%$relation"
+;Func = "%%Func %%^ 	$replace	=	%%$replace"
+Func = "%%Func %%^ 	$result			=	%%$result"
+Func = "%%Func %%^ 	$rettype		=	%%$rettype"
+;Func = "%%Func %%^ 	$rtrim	=	%%$rtrim"
+Func = "%%Func %%^ 	$runmode		=	%%$runmode"
+;Func = "%%Func %%^ 	$scan	=	%%$scan"
+Func = "%%Func %%^ 	$selblk			=	%%$selblk"
+Func = "%%Func %%^ 	$selectlist		=	%%$selectlist"
+;Func = "%%Func %%^ 	$split	=	%%$split"
+Func = "%%Func %%^ 	$status			=	%%$status"
+Func = "%%Func %%^ 	$storetype		=	%%$storetype"
+Func = "%%Func %%^ 	$subsetreturn		=	%%$subsetreturn"
+;Func = "%%Func %%^ 	$syntax	=	%%$syntax"
+;Func = "%%Func %%^ 	$text	=	%%$text"
+Func = "%%Func %%^ 	$textexist		=	%%$textexist"
+Func = "%%Func %%^ 	$time			=	%%$time"
+Func = "%%Func %%^ 	$totdbocc		=	%%$totdbocc"
+Func = "%%Func %%^ 	$totkeys		=	%%$totkeys"
+Func = "%%Func %%^ 	$totlines		=	%%$totlines"
+Func = "%%Func %%^ 	$totocc			=	%%$totocc"
+;Func = "%%Func %%^ 	$typed	=	%%$typed"
+;Func = "%%Func %%^ 	$uppercase	=	%%$uppercase"
+Func = "%%Func %%^ 	$user			=	%%$user"
+Func = "%%Func %%^ 	$uuid			=	%%$uuid"
+Func = "%%Func %%^ 	$valrep			=	%%$valrep"
+Func = "%%Func %%^ 	$variation		=	%%$variation"
+Func = "%%Func %%^ 	$web			=	%%$web"
+;Func = "%%Func %%^ 	$webinfo		=	%%$webinfo"
+
+</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>
+      Google Visualization API Sample
+    </title>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
+        var data = google.visualization.arrayToDataTable([
+['Product', 'Quantity'],['HTC Touch 3G T3232 orange network unlocked smart windows',1],['Nokia N80 - Sim Free Smart Phone with 3 Megapixel Camera',1],['PLUG-IN CAR HANDS FREE WITH INTEGRAL HOLDER',2]]);
+        new google.visualization.PieChart(document.getElementById('visualization')).
+            draw(data, {title:"Product for  year - 2011"});
+      }
+  window.onload=drawVisualization;
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;">
+    <div id="visualization" style="width: 300px; height: 200px;"></div>
+  </body>
+</html>

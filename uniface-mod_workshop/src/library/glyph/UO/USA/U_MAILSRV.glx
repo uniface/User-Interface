@@ -1,0 +1,61 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by UNIFACE - (C) Compuware Corporation -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="UGLYPH" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCVERS" seqno="2" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCSUB" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UCLABEL" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UCVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UCTYPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UCLASS" seqno="7" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="105" />
+<FLD name="UCOPTION" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBITMAP" seqno="11" type="I" level="2" pack="131" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-07-03T17:38:51.00</DAT>
+<DAT name="UCSUB">I</DAT>
+<DAT name="UCLABEL">U_MAILSRV</DAT>
+<DAT name="UCVAR">UO</DAT>
+<DAT name="UCTYPE">USA</DAT>
+<DAT name="UCLASS" xml:space='preserve'>Iw 8!?!@</DAT>
+<DAT name="UCOPTION">F</DAT>
+<DAT name="UDESCR">mailsrv.gif</DAT>
+<DAT name="UBITMAP">I1VOSSMBAwAeAB8IAAAAAAAAAAD2+P7w9f3w8/jx7+Xn7vz/593m7Pnc5/nf5vHi5trN5/Hj4NDS3/jV3OnO2O/8ybvV0sPF0uzMzMy7ze7EzNO4y++zx+7FyLy/xca0w+Wrx8Cs
+vuSmveusvdj/oYmovd2jt+GitdWms8mes+CvtK+Wvq+Yr96Ou7eZrtOorayZrc+dq8VoyK16ttKTp8Y63n+Uqp+MpceFpceRobpgv5d4r6qMoMFOxomKm7Rup7SCmr5oqqOGm5CE
+la97lLNapakuvpJ0kNFKsYghzlYbxoNbmcE8uGb/Xjt0ja40uWcLymgUzUNZi91shKYUtHZmgKI5kbVkhXZRfNlje7FnfZslnpwItlRDf80wj6g8kHZheJj9PhBedI1UgGpcdJQI
+pWL/MwAFokY+bNQydMlUa4ZNapMkiVRLaokmcbYzZswFlkNGYoYReoUoZLcCjDkDgl8qVcsqbUgAgTg5Vn0PZ4kZaU8QazTJFgAiRcQZYTAAaicnR3EAYiAgQWsAVhSAgICBgYGC
+goKDg4OEhISFhYWGhoaHh4eIiIiJiYmKioqLi4uMjIyNjY2Ojo6Pj4+QkJCRkZGSkpKTk5OUlJSVlZWWlpaXl5eYmJiZmZmampqbm5ucnJydnZ2enp6fn5+goKChoaGioqKjo6Ok
+pKSlpaWmpqanp6eoqKipqamqqqqrq6usrKytra2urq6vr6+wsLCxsbGysrKzs7O0tLS1tbW2tra3t7e4uLi5ubm6urq7u7u8vLy9vb2+vr6/v7/AwMDBwcHCwsLDw8PExMTFxcXG
+xsbHx8fIyMjJycnKysrLy8vMzMzNzc3Ozs7Pz8/Q0NDR0dHS0tLT09PU1NTV1dXW1tbX19fY2NjZ2dna2trb29vc3Nzd3d3e3t7f39/g4ODh4eHi4uLj4+Pk5OTl5eXm5ubn5+fo
+6Ojp6enq6urr6+vs7Ozt7e3u7u7v7+/w8PDx8fHy8vLz8/P09PT19fX29vb39/f4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7/////gAH8+gAAfPgAADz4AAAc+gAADPoAAAz6MAAE8jwI
+API/IADjv4AA4/8AAOP4AADjwAAA4wAAAMIAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAMAAAAHAAAABwAAAAcwAAAHPAAAHz4AAD8/4AD/P/AH/z/8H/8AAAAAAAAAAAA
+HjIVFRsoNjw8NiYZCgEAAAAAAAAAAAAAAAABAB4yIgkiMy0wMERMTExKOiwKAQAAAAAAAAAAAAAeMiIJIi8LCSIzNTg4R0dKUWNUIwQAAAAAAAAAAAAgCSIvCwkiLwsJIjMuOkBG
+WGNqcTQEAAAAAAAAAAAgAAUJIi8LCSIvCQkiM0JNU2NjcXk5BAAAAAAAAAAgAB8GAgkiLwkJIh4DCSJCTVhWaXl5NAAAAAAAAAAgAEhcSAAACSIeAwkiHgMJIkFFaXl5WRgAAAAA
+ABUgAGFcYQAAAAAJIh4DCSIAZkFZcXF1cD0MAAAAACwgABBIeAAAAAAAAAkiAGYNfllqcW5ta2cYAAAAFTsgAAAAEAAAAAAAAABmDX4PfGRqbm1ia3MxAAAAI0IgAAAAAAAAAAAA
+AA1+D3wSfGpubWBib3NSAAAAN0IgAAAAAAAAAAEBAQ98EnwUfGlWYFdib3NnAAAAP0YgAAAAABoBGgEBARJ8FHwUfE9PV2Jic3t3AAAASUAkAAABATIBMgEBAhR8FHwUfEtXV2Jr
+c3t9AAAZTkkkAAEBATICMgICAhR8FHwWfENXYmtze313GTk5JzIkAAEBATICMgUBBRR8FnwWfE5fWm9ze31yIyckHCsnAQICAjIFMgUeBxZ8FnwXfC83UGh2fX1eIy8hFCkpAQIC
+BTIFMgc7BxZ8F3wXfC8jI1B0fX89Iw80ICkpBwcHBzcHNwg7CBd8F3wcfDc5dFVof3olLAkOPi8nDggHBzsIOwg7CBd8HHwdZmxmMx1of1IALwMDDjknFRINCD8IOwg7DRx8HWZm
+ZikdHR1seiUAOQUFBT4yFRISEhINPw03DR1oUE4pFx0dHR1sPQAAPgcHByM/NCweHh4iLyJQHk5OIhQUFx0dHSRsAAAAPx4JCQlJSTs3SU5fX1BJTh4PDxQUFx0dHSRsAAAAAzlJ
+Iw8PHltbUCscHDI+DQ0PDxQUFxcdJDtVAAAAAAAKPk4jEhIWGhocISE+DQ0NDxIUFx07VWUlAAAAAAAAAAxVVSwaGhwcISRJDQ0NDxIWN1VlJQAAAAAAAAAAAAABE1tbNyEhISRO
+DQ0NEi9VZSoRAAAAAAAAAAAAAAAAAAAAXV87JCdQDQ0sUGUqEQAAAAAAAAAAAAAAAAAAAAAAACVlXztfIlBlKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJWVsZSoAAAAAAAAAAAAA
+AAAA</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

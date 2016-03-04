@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by UNIFACE - (C) Compuware Corporation -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="UGLYPH" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCVERS" seqno="2" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCSUB" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UCLABEL" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UCVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UCTYPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UCLASS" seqno="7" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="105" />
+<FLD name="UCOPTION" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBITMAP" seqno="11" type="I" level="2" pack="131" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-08-19T10:06:10.00</DAT>
+<DAT name="UCSUB">I</DAT>
+<DAT name="UCLABEL">U_GLOBE</DAT>
+<DAT name="UCVAR">UO</DAT>
+<DAT name="UCTYPE">USA</DAT>
+<DAT name="UCLASS" xml:space='preserve'>Iw 8!3!6</DAT>
+<DAT name="UCOPTION">F</DAT>
+<DAT name="UDESCR">base_globe_18x21.png</DAT>
+<DAT name="UBITMAP">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</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
