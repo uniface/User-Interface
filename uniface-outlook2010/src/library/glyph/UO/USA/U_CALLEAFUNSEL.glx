@@ -1,0 +1,70 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">UO</DAT>
+<DAT name="UDESCR" xml:space='preserve'>UO library</DAT>
+<DAT name="UTIMESTAMP">2000-10-11T13:36:21.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UGLYPH" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCVERS" seqno="2" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCSUB" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UCLABEL" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UCVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UCTYPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UCLASS" seqno="7" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="105" />
+<FLD name="UCOPTION" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBITMAP" seqno="11" type="I" level="2" pack="131" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-08-17T22:11:55.00</DAT>
+<DAT name="UCSUB">I</DAT>
+<DAT name="UCLABEL">U_CALLEAFUNSEL</DAT>
+<DAT name="UCVAR">UO</DAT>
+<DAT name="UCTYPE">USA</DAT>
+<DAT name="UCLASS" xml:space='preserve'>Iw 8!7!.</DAT>
+<DAT name="UCOPTION">F</DAT>
+<DAT name="UDESCR">calleafunsel.png</DAT>
+<DAT name="UBITMAP">I1VOSSMBAAAWAA0YCAAAAAD///////////////////////////////////////////////+Oj4//jo+P/46Pj/+Oj4//jo+P/46Pj/+Oj4//jo+P/46Pj/+Oj4//jo+P/46Pj/+O
+j4//////////////////////////////////////////////////jo+P//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/jo+P////////////////
+/////////////////////////////////46Pj//09PT/rrO5/66zuf+us7n/rrO5/66zuf+us7n/r7S6/7S5vf+7vsH/9PT0/46Pj///////////////////////////////////
+//////////////+Oj4//9PT0/66zuf/Lz9X/y8/V/8vP1f/Lz9X/0NPY/9XY3P/b3d//wcPF//T09P+Oj4//////////////////////////////////////////////////jo+P
+//T09P+us7n/y8/V/8vP1f/N0db/0tXa/9jb3v/d3+H/4uPk/8bHyP/09PT/jo+P/////////////////////////////////////////////////46Pj//09PT/rrO5/83R1//Q
+1Nn/1Nfb/9vd3//h4uP/5ebm/+jo6P/Mzc3/9PT0/46Pj/////////////////////////////////////////////////+Oj4//9PT0/7K3vP/V2Nz/2tzf/+Dh4//o6Oj/7Ozs
+/+3t7f/t7e3/1NXW//T09P+Oj4//////////////////////////////////////////////////jo+P//T09P+4u7//3d/h/+Tl5f/q6ur/7+/v//Ly8v/y8vL/8vLy/9zd3v/0
+9PT/jo+P/////////////////////////////////////////////////46Pj//09PT/vL/C/+Pk5f/p6en/7e3t//Ly8v/09PT/9fX1//T09P/h4uL/9PT0/46Pj///////////
+//////////////////////////////////////+Oj4//9PT0/8LExv/p6en/7e3t//Dw8P/09PT/9vb2//b29v/29vb/5ubm//T09P+Oj4//////////////////////////////
+////////////////////jo+P//T09P/Ky8z/1NTV/9vb3P/g4eH/5ufn/+rr6//r7Oz/6+vs/+np6v/09PT/jo+P////////////////////////////////////////////////
+/46Pj//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0/46Pj/////////////////////////////////////////////////+Oj4//jo+P/46Pj/+O
+j4//jo+P/46Pj/+Oj4//jo+P/46Pj/+Oj4//jo+P/46Pj/+Oj4//</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

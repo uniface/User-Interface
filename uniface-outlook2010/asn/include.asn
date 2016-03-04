@@ -1,0 +1,26 @@
+[SETTINGS]
+$search_resources  resources_only
+$resources_output  .\bin
+$nls_internal_time UTC
+
+
+[RESOURCES]
+.\bin
+
+usys:uidf.uar
+usys:usys.uar
+usys:usysicon.uar
+usys:udbg.uar
+
+
+[FILES]
+usys:*.xml                     usysuniface:.\misc\*.xml
+outlook\*                      .\resources\outlook\*
+uomaildata.xml                 .\resources\uomaildata.xml
+file:///.\outlook\calbig.htm   .\resources\outlook\calbig.htm
+*.log                          .\log\*.log
+*.*lst                         .\lst\*.*lst
+*.dtd                          .\dtd\*.dtd
+
+
+#file .\asn\dbms.asn

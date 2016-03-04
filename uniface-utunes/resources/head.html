@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+html,
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-image:url('./images/titleactionblank.png');
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height:62px;
+	width:343px;
+	overflow: hidden;
+}
+a img {
+	border: none;
+}
+.container {
+	width: 200px;
+	float: left;
+	margin-right: 6px;
+	margin-left: 0px;
+	margin-top: 7px;
+}
+.header {
+	font-size: 12px;
+	font-weight:bold;
+	text-align:center;
+		margin: 0;
+	padding: 0;
+}
+.header2 {
+	font-size: 10px;
+	text-align:center;
+		margin: 0;
+	padding: 0;
+}
+
+.content {
+	padding: 0px 6px;
+}
+
+.upnext {
+	position:absolute;
+	left:295px;
+	top:18px;
+
+
+}
+.mix {
+	position:absolute;
+	left:260px;
+	top:36px;
+}
+.fltlft {
+	float: left;
+
+	margin-left: 6px;
+	margin-top: 8px;
+}
+.fltlftreplay {
+	float: left;
+
+	margin-left: 12px;
+	margin-top: 36px;
+}
+
+</style>
+<script language="javascript">
+	function setTitle(pName, pArtist )
+	{
+	document.getElementById("name").innerHTML = pName;
+	document.getElementById("artist").innerHTML = pArtist;
+	}
+</script>
+</head>
+
+<body>
+<div>
+  <div class="fltlft"><img src='./images/unavailable.png'> </div>
+  <div class="fltlftreplay"><img src='./images/replay.png'> </div>
+</div>
+<div class="container">
+  <div id="name" class="header">Unknown</div>
+  <div id="artist" class="header2">Unknown</div>
+  <div class="content"><img src='./images/progress.png'> </div>
+</div>  <div class="upnext"><img src='./images/upnext.png'> </div>
+  <div class="mix"><img src='./images/mix.png'></div>
+
+</div>
+</body>
+</html>

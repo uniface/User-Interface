@@ -1,0 +1,131 @@
+1 TYPELIB "Data_1.bin"
+
+1050 WAVE "Data_1.wav"
+
+1051 WAVE "Data_2.wav"
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+120, 	"iTunes"
+}
+
+128 ICON "Icon_1.ico"
+
+129 ICON "Icon_2.ico"
+
+130 ICON "Icon_3.ico"
+
+132 ICON "Icon_4.ico"
+
+133 ICON "Icon_5.ico"
+
+134 ICON "Icon_6.ico"
+
+135 ICON "Icon_7.ico"
+
+136 ICON "Icon_8.ico"
+
+137 ICON "Icon_9.ico"
+
+139 ICON "Icon_10.ico"
+
+141 ICON "Icon_11.ico"
+
+143 ICON "Icon_12.ico"
+
+145 ICON "Icon_13.ico"
+
+147 ICON "Icon_14.ico"
+
+148 ICON "Icon_15.ico"
+
+149 ICON "Icon_16.ico"
+
+150 ICON "Icon_17.ico"
+
+151 ICON "Icon_18.ico"
+
+153 ICON "Icon_19.ico"
+
+161 ICON "Icon_20.ico"
+
+162 ICON "Icon_21.ico"
+
+163 ICON "Icon_22.ico"
+
+164 ICON "Icon_23.ico"
+
+166 ICON "Icon_24.ico"
+
+167 ICON "Icon_25.ico"
+
+168 ICON "Icon_26.ico"
+
+200 ICON "Icon_27.ico"
+
+201 ICON "Icon_28.ico"
+
+202 ICON "Icon_29.ico"
+
+203 ICON "Icon_30.ico"
+
+205 ICON "Icon_31.ico"
+
+206 ICON "Icon_32.ico"
+
+208 ICON "Icon_33.ico"
+
+209 ICON "Icon_34.ico"
+
+210 ICON "Icon_35.ico"
+
+211 ICON "Icon_36.ico"
+
+212 ICON "Icon_37.ico"
+
+213 ICON "Icon_38.ico"
+
+214 ICON "Icon_39.ico"
+
+215 ICON "Icon_40.ico"
+
+216 ICON "Icon_41.ico"
+
+217 ICON "Icon_42.ico"
+
+218 ICON "Icon_43.ico"
+
+256 ICON "Icon_44.ico"
+
+
+1 VERSIONINFO
+FILEVERSION 11,0,2,26
+PRODUCTVERSION 11,0,2,26
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Apple Inc."
+		VALUE "FileDescription", "iTunes"
+		VALUE "FileVersion", "11.0.2.26"
+		VALUE "LegalCopyright", "© 2003-2013 Apple Inc. All rights reserved."
+		VALUE "InternalName", "iTunes"
+		VALUE "OriginalFilename", "iTunes.exe"
+		VALUE "ProductName", "iTunes"
+		VALUE "ProductVersion", "11.0.2.26"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
+1 24 "Data_2.bin"
+

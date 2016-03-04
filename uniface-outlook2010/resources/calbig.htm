@@ -1,0 +1,30 @@
+
+<html>
+<head>
+<link href="bigcal.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function insertText (val) {
+	if (val == 1){
+     document.getElementById("t1").className = "containeractive";
+	 document.getElementById("t2").value = "";
+	}
+	else{
+	 document.getElementById("t1").className = "container";	
+	 document.getElementById("t2").value = " Search Calendar(Ctrl + E)";
+		}
+}
+</script>
+<script type="text/javascript" src="calbig.js"></script>
+</head>
+<body>
+<div id="t1" class="container">
+<div class="innercontainer">
+  <label for="textfield"></label>
+  <input name="textfield"type="text" class="searchinput" id="t2" onFocus="insertText(1)" onBlur="insertText(0)" value=" Search Calendar(Ctrl + E)" size="35">
+</div>
+<p id="month" class="themonthd"> </p>
+</div>
+<div id="calendar">
+<script type="text/javascript">calendar()</script></div>
+</body>
+</html>

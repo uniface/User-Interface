@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen" href="resources/themes/Unidefault/jquery-ui-1.8.2.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="resources/themes/ui.jqgrid.css" />
+
+
+<style>
+html,
+body {
+    height: 100%;
+    width: 100%;
+	margin: 0;			/* Remove body margin/padding */
+	padding: 0;
+	overflow: hidden !important;
+	}
+
+.myAltRowClass {
+	background: #F1F4F7;
+	font-size:2.0em
+	font-family: Verdana, Arial,Helvetica,sans-serif !important;
+}
+
+.ui-jqgrid{
+	border-width: 0px
+}
+
+
+.ui-jqgrid tr.ui-row-ltr td {
+	border-right-color: transparent;
+}
+
+.popuparrow:hover{
+	width:17px;
+	height:15px;
+	margin:0;
+	background:url(resources/images/playing.png) no-repeat !important;
+	}
+
+
+
+#overlay{ height:100%; z-index:998; display:none; position:fixed; top:0; left:0; width:100%;}
+#utunemen{background:rgba(255,255,255,0.9); border:#CCC thin solid; width:185px; border-radius:5px; box-shadow:rgba(0,0,0,0.5); -webkit-box-shadow: 2px 2px 30px rgba(50, 50, 57, 0.22); -moz-box-shadow:    2px 2px 30px rgba(50, 50, 57, 0.22); box-shadow:         2px 2px 30px rgba(50, 50, 57, 0.22); padding:5px; font-size:11px; position:relative; z-index:999; top:400px; cursor:default;}
+#arrow{float:left; width:20px; height:50px; margin-left:-15px; margin-top:-5px; background:url(resources/images/arrow.png) no-repeat;}
+/*Remove All margins*/
+#utunemen ul{ margin:0; padding:0; }
+#utunemen ul li{ border:none; margin:0; padding-left:5px; list-style-position:inside; position:relative; border-radius:5px;}
+/* Align text within the list - DO NOT MESS WITH*/
+#utunemen ul span{ position:absolute; top:5px; }
+/*Change BG colour on hover*/
+#utunemen ul li:hover{ margin:0; background:#8ba7c9; color:#fff;}
+/*List Icons by order*/
+#utunemen ul li:nth-child(1){ margin:0; list-style-image:url(resources/images/6.png);}
+#utunemen ul li:nth-child(2){ margin:0; list-style-image:url(resources/images/0.png);}
+#utunemen ul li:nth-child(4){ margin:0; list-style-image:url(resources/images/1.png);}
+#utunemen ul li:nth-child(6){ margin:0; list-style-image:url(resources/images/2.png);}
+#utunemen ul li:nth-child(7){ margin:0; list-style-image:url(resources/images/3.png);}
+#utunemen ul li:nth-child(8){ margin:0; list-style-image:url(resources/images/4.png);}
+/*Hovered*/
+#utunemen ul li:nth-child(1):hover{ margin:0; list-style-image:url(resources/images/6h.png);}
+#utunemen ul li:nth-child(2):hover{ margin:0; list-style-image:url(resources/images/0h.png);}
+#utunemen ul li:nth-child(4):hover{ margin:0; list-style-image:url(resources/images/1h.png);}
+#utunemen ul li:nth-child(6):hover{ margin:0; list-style-image:url(resources/images/2h.png);}
+#utunemen ul li:nth-child(7):hover{ margin:0; list-style-image:url(resources/images/3h.png);}
+#utunemen ul li:nth-child(8):hover{ margin:0; list-style-image:url(resources/images/4h.png);}
+
+.hr{
+	height:1px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(4,4,4,0) 1%, rgba(12,12,12,0) 3%, rgba(177,177,177,0.53) 46%, rgba(181,181,181,0.52) 47%, rgba(181,181,181,0) 96%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(4,4,4,0)), color-stop(3%,rgba(12,12,12,0)), color-stop(46%,rgba(177,177,177,0.53)), color-stop(47%,rgba(181,181,181,0.52)), color-stop(96%,rgba(181,181,181,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(4,4,4,0) 1%,rgba(12,12,12,0) 3%,rgba(177,177,177,0.53) 46%,rgba(181,181,181,0.52) 47%,rgba(181,181,181,0) 96%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(4,4,4,0) 1%,rgba(12,12,12,0) 3%,rgba(177,177,177,0.53) 46%,rgba(181,181,181,0.52) 47%,rgba(181,181,181,0) 96%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(4,4,4,0) 1%,rgba(12,12,12,0) 3%,rgba(177,177,177,0.53) 46%,rgba(181,181,181,0.52) 47%,rgba(181,181,181,0) 96%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(4,4,4,0) 1%,rgba(12,12,12,0) 3%,rgba(177,177,177,0.53) 46%,rgba(181,181,181,0.52) 47%,rgba(181,181,181,0) 96%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00b5b5b5',GradientType=1 ); /* IE6-9 */
+margin-top:5px;
+margin-bottom:5px;
+}
+</style>
+
+
+
+<script src="resources/js/jquery.js" type="text/javascript"></script>
+<script src="resources/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="resources/js/jquery.layout.js" type="text/javascript"></script>
+<script src="resources/js/i18n/grid.locale-en.js" type="text/javascript"></script>
+<script src="resources/js/jquery.jqGrid.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="overlay">
+    <div id="utunemen">
+    	<div id="arrow"></div>
+        <ul>
+        	<li><span>Play Next</span></li>
+            <li><span>Add to Up Next</span></li>
+            <div class="hr">&nbsp;</div>
+            <li><span>Get Genius Suggestions</span></li>
+            <div class="hr">&nbsp;</div>
+            <li><span>Go To "{ARTIST}"</span></li>
+            <li><span>Go To "{ALBUM}"</span></li>
+            <li><span>Show in iTunes Store</span></li>
+        </ul>
+    </div>
+</div>
+<table id="listdt"></table>
+<script type="text/javascript">
+var jsondata = $DATA$;
+var lastsel2
+$("#listdt").jqGrid({
+datatype: "local",
+data: jsondata,
+	sortable: true,
+   	colNames:[' ','id','<input type="checkbox" checked />', 'Name',' ','Cloud','Time', 'Artist','Album','Genre', 'discount', 'Rating','Loc',' '],
+   	colModel:[
+   		{name:'LEFTPAD',index:'LEFTPAD',width:20, sortable:false, title: false},
+   		{name:'TRACKID',index:'TRACKID', hidden:true, width:20},
+   		{name:'SELECT',index:'SELECT',editable: true, align:"center",width:20, formatter: "checkbox", formatoptions: {disabled : false, defaultValue: "yes"}, editable: true, edittype:"checkbox"},
+   		{name:'NAME',index:'NAME', width:180, align:"left"},
+   		{name:'popuparrow',index:'popuparrow', width:20,align:"left", sortable:false, title: false, cellattr: function() {return 'class="popuparrow"';}},
+   		{name:'CLOUD',index:'CLOUD',editable: true,align:"center", width:20},
+   		{name:'TOTALTIME',index:'TOTALTIME', width:40, align:"right", "resizable": true},
+   		{name:'ARTIST',index:'ARTIST', width:200, align:"left", "resizable": true},
+   		{name:'ALBUM',index:'ALBUM', width:350,align:"left", "resizable": true },
+   		{name:'GENRE',index:'GENRE', width:50, "resizable": true },
+   		{name:'DISCOUNT',index:'DISCOUNT', hidden:true, width:20, align:"right" , "resizable": true},
+   		{name:'SAMPLERATE',index:'SAMPLERATE', width:50,align:"right"},
+   		{name:'LOCATION',index:'LOCATION', hidden:true, width:20 ,editable: true, hidedlg:true, sortable:true},
+   		{name:'RIGHTPAD',index:'RIGHTPAD',width:60, sortable:false, title: false}
+   	],
+   	rowNum:200,
+   	rownumbers: false,
+   	rownumWidth: 36,
+   	sortname: 'trackid',
+    viewrecords: true,
+    sortorder: "asc",
+    sortable: true,
+                 hoverrows: false,
+                height: 400,
+                altRows:true,
+                altclass:'myAltRowClass',
+                onSelectRow: function (id) {
+
+                var vtrackid = jQuery('#listdt').jqGrid('getCell', id, 'TRACKID');
+                var vartist = jQuery('#listdt').jqGrid('getCell', id, 'ARTIST');
+                var vname = jQuery('#listdt').jqGrid('getCell', id,'NAME');
+                var vtotaltime = jQuery('#listdt').jqGrid('getCell', id,'TOTALTIME');
+                var vlocation = jQuery('#listdt').jqGrid('getCell', id,'LOCATION');
+                window.unifaceTriggers('settrack', vtrackid,vartist,vname,vtotaltime,vlocation);
+                }
+}).ready(function() {
+	ResizeGrid()
+
+	$("#listdt").jqGrid ('setLabel', 'name', '', {'text-align':'left'});
+	$("#listdt").jqGrid ('setLabel', 'totaltime', '', {'text-align':'right'});
+	$("#listdt").jqGrid ('setLabel', 'artist', '', {'text-align':'left'});
+	$("#listdt").jqGrid ('setLabel', 'album', '', {'text-align':'left'});
+	$("#listdt").jqGrid ('setLabel', 'genre', '', {'text-align':'left'});
+	$("#listdt").jqGrid ('setLabel', 'cloud', '<img src=web/resources/images/cloud.png width=16 height=16>');
+
+
+	$(window).resize(function (){
+		ResizeGrid()
+	});
+
+	// Select 4th cell excluding the first row which is defined by the .jqgfirstrow Selector
+
+	$('tr:not(.jqgfirstrow) td:nth-child(4)').each(function(index, element) {
+		$(this).addClass('titlecell');
+        $(this).append('<div class="popuparrow">&nbsp;</div>');
+		$('.popuparrow').css({'width':'17px','height':'15px','float':'right','display':'none','cursor':'default'});
+		var artist = $(this).parent('tr').children('td:nth-child(8)').html();
+		$(this).children('.popuparrow').data('artist',artist);
+		var album = $(this).parent('tr').children('td:nth-child(9)').html();
+		$(this).children('.popuparrow').data('album',album);
+    });
+
+	$('.titlecell').hover(function(){
+		var llama = $(this).children('.popuparrow').fadeIn('fast');
+		},function(){
+		$(this).children('.popuparrow').fadeOut('fast');
+	});
+
+
+   $('#overlay').click(function(){
+	   $(this).fadeOut('fast');
+	   });
+	$('#utunemen').click(function(){
+		return false;
+		});
+
+	$('.popuparrow').mousedown(function(e) {
+
+		var artist = $(this).data('artist');
+		if (artist == "&nbsp;"){
+			artist = "Unknown Artist";
+			}
+		$('#utunemen ul li:nth-child(6)').html('Go To "'+artist+'"');
+		var album = $(this).data('album');
+		if (album == "&nbsp;"){
+			album = "Unknown Album";
+			}
+		$('#utunemen ul li:nth-child(7)').html('Go To "'+album+'"');
+
+
+		if ($('#overlay').css('display') != 'block'){
+			$('#overlay').fadeIn('fast');
+			var pgscroll = $('body').scrollTop();
+			var xpoint = e.pageX + 10;
+			var ypoint = e.pageY - (15 + pgscroll);
+			$('#utunemen').css({'top':ypoint,'left':xpoint});
+			}
+    });
+
+});
+
+
+function ResizeGrid(){
+	$("#listdt").setGridWidth($(window).width());
+	$("#listdt").setGridHeight($(window).height());
+	}
+</script>
+
+</body>
+</html>

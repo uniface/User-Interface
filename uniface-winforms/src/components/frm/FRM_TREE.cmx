@@ -1,0 +1,1529 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-19T19:16:35.00</DAT>
+<DAT name="UCOMPSTAMP">2015-10-19T15:16:35.00</DAT>
+<DAT name="ULABEL">FRM_TREE</DAT>
+<DAT name="WVPOS">3</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">37</DAT>
+<DAT name="WHSIZ">86</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="MOVABLE">Y</DAT>
+<DAT name="HIDESTACK">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UTRANSACT">0</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="INIT" xml:space='preserve'>variables
+	numeric vCount
+	string vnames
+endvariables
+
+for vCount = 1 to 100
+	putitem/id $valrep(TREE1), "R%%vCount%%%", "&uSEP;NODE&uSEP;R%%vCount%%%&uSEP;Value 1 of Row %%vCount%%%&uSEP;Value 2 of Row %%vCount%%%&uSEP;Value 3 of Row %%vCount%%%"
+endfor
+;debug
+;fileload "persons.txt", vnames
+;$valrep(tree1) = "R1=&uNOT;&uSEP;NODE&uNOT;&uSEP;1&uNOT;&uSEP;Sidney      &uNOT;&uSEP;Nazzario   &uNOT;&uSEP;1938-05-07&uSEP;R2=&uNOT;&uSEP;NODE&uNOT;&uSEP;2&uNOT;&uSEP;Sue         &uNOT;&uSEP;Harg       &uNOT;&uSEP;1913-04-28&uSEP;R3=&uNOT;&uSEP;NODE&uNOT;&uSEP;3&uNOT;&uSEP;Cynthia     &uNOT;&uSEP;Greenwood  &uNOT;&uSEP;1914-03-25&uSEP;R4=&uNOT;&uSEP;NODE&uNOT;&uSEP;4&uNOT;&uSEP;Melanie     &uNOT;&uSEP;Emir       &uNOT;&uSEP;1921-09-04&uSEP;R5=&uNOT;&uSEP;NODE&uNOT;&uSEP;5&uNOT;&uSEP;Don         &uNOT;&uSEP;
+&uBS;Fredricson &uNOT;&uSEP;1925-05-08"
+
+;$valrep(tree1) = vnames
+
+TREE1 = "R1"
+
+postmessage $instancename, "GetFocus", "SysListView32"
+
+edit
+
+
+</DAT>
+<DAT name="CLEAR" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate clear() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Clear' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;clear()
+
+#else
+  clear
+
+#endif
+</DAT>
+<DAT name="RETRIEVE" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate load() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Load' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;load()
+
+#else
+  retrieve
+  if ($status &lt; 0)
+    message $text(1762) ;error
+  endif
+
+#endif</DAT>
+<DAT name="RECORD" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate load() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Load' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;load()
+
+#else
+  retrieve
+  if ($status &lt; 0)
+    message $text(1762) ;error
+  endif
+
+#endif</DAT>
+<DAT name="STORE" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate save() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Save' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;save()
+
+#else
+  store
+  if ($status &lt; 0)
+     message $text(1500)    ; error
+     rollback
+  else
+    if ($status = 1)
+      message $text(1723)   ; no change
+    else
+      commit
+      if ($status &lt; 0)
+        rollback
+      else
+        message $text(1805) ; Ok
+      endif
+    endif
+  endif
+
+#endif</DAT>
+<DAT name="DELET" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate deleteall() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by a 'Delete All' Button).
+  $collhandle("&lt;frmEntity&gt;")-&gt;deleteall()
+
+#else
+  erase
+  if ($status &lt; 0)
+    message $text(1763)   ;error
+    rollback
+  else
+    if ($status = 1)
+      message $text(1634) ;not allowed
+    else
+      message $text(1806) ;Ok
+      commit
+    endif
+  endif
+
+#endif</DAT>
+<DAT name="ACCEPT" xml:space='preserve'>#ifdefined frmEntity
+  ; Generated three tier component: Delegate save() to FRM Subtype.
+  ; This allows a uniform implementation that can be invoked
+  ; by other objects too (for example, by an 'OK' Button).
+if ($formmod)
+  $collhandle("&lt;frmEntity&gt;")-&gt;save()       ; save modifications
+  if ($status &lt; 0)                         ; check negative status from Save()
+    return (-1)
+  endif
+endif
+
+exit (0)
+#else
+#endif</DAT>
+<DAT name="ASYNC" xml:space='preserve'>variables
+	numeric hWnd
+	string lpClassName
+endvariables
+
+if ($msgid = "GetFocus")
+	activate "USER32".GetFocus()
+	hWnd = $status
+	activate "USER32".FindWindowEx(hWnd, 0, $msgdata, 0)
+	hWnd = $status
+	if (hWnd &gt; 0)
+		FLD3.DUM = hWnd
+		activate "USER32".SendMessage(hWnd, &lt;LVM_GETSELECTIONMARK&gt;, 0, 0)
+		FLD1.DUM = $status + 1
+		activate "USER32".SendMessage(hWnd, &lt;LVM_GETITEMCOUNT&gt;, 0, 0)
+		FLD2.DUM = $status
+	else
+		message/hint "FindWindowEx could not find %%$msgdata"
+	endif
+endif
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>&uFRM;TYP=E&uSEP;NAM=DUM.DUM&uSEP;WID=85&uSEP;HEI=37&uSEP;HOC=85&uSEP;VOC=37&uFRM;    &uFRM;TYP=F&uSEP;NAM=TREE1&uSEP;WID=81&uSEP;HEI=27&uFRM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &uFRM;TYP=F&uSEP;NAM=BTN1&uSEP;WID=10&uSEP;HEI=1&uFRM;   &uFRM;TYP=F&uSEP;NAM=CHK2&uSEP;WID=2&uSEP;HEI=1&uFRM;&uFRM;TYP=L&uSEP;NAM=CHK2.DUM&uSEP;WID=13&uSEP;HEI=1&uSEP;LAB=Gridlines&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BTN2&uSEP;WID=10&uSEP;HEI=1&uFRM;   &uFRM;TYP=F&uSEP;NAM=CHK1&uSEP;WID=2&uSEP;HEI=1&uFRM;&uFRM;TYP=L&uSEP;NAM=CHK1.DUM&uSEP;WID=13&uSEP;HEI=1&uSEP;LAB=CheckBoxes&uFRM;  &uFRM;TYP=F&uSEP;NAM=BTN99&uSEP;WID=13&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BTN3&uSEP;WID=10&uSEP;HEI=1&uFRM;   &uFRM;TYP=F&uSEP;NAM=CHK4&uSEP;WID=2&uSEP;HEI=1&uFRM;&uFRM;TYP=L&uSEP;NAM=CHK4.DUM&uSEP;WID=13&uSEP;HEI=1&uSEP;LAB=HeaderDragDrop&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BTN4&uSEP;WID=10&uSEP;HEI=1&uFRM;   &uFRM;TYP=F&uSEP;NAM=CHK3&uSEP;WID=2&uSEP;HEI=1&uFRM;&uFRM;TYP=L&uSEP;NAM=CHK3.DUM&uSEP;WID=13&uSEP;HEI=1&uSEP;LAB=FullRowSelect&uFRM;
+               &uFRM;TYP=F&uSEP;NAM=CHK5&uSEP;WID=2&uSEP;HEI=1&uFRM;&uFRM;TYP=L&uSEP;NAM=CHK5.DUM&uSEP;WID=13&uSEP;HEI=1&uSEP;LAB=Tooltip&uFRM;
+                                                  &uFRM;TYP=L&uSEP;NAM=FLD3.DUM&uSEP;WID=10&uSEP;HEI=1&uSEP;LAB=hWnd&uFRM;  &uFRM;TYP=L&uSEP;NAM=FLD1.DUM&uSEP;WID=10&uSEP;HEI=1&uSEP;LAB=Selected&uFRM; &uFRM;TYP=L&uSEP;NAM=FLD2.DUM&uSEP;WID=10&uSEP;HEI=1&uSEP;LAB=Count&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BTN50&uSEP;WID=13&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=BTN51&uSEP;WID=13&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=BTN52&uSEP;WID=13&uSEP;HEI=1&uFRM;     &uFRM;TYP=F&uSEP;NAM=FLD3&uSEP;WID=10&uSEP;HEI=1&uFRM;  &uFRM;TYP=F&uSEP;NAM=FLD1&uSEP;WID=10&uSEP;HEI=1&uFRM;&uFRM;TYP=L&uSEP;NAM=LABEL_1&uSEP;WID=1&uSEP;HEI=1&uSEP;LAB=/&uFRM;&uFRM;TYP=F&uSEP;NAM=FLD2&uSEP;WID=10&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="WINPROP" xml:space='preserve'>CAPTION=&uSEP;CANRESIZE=&uSEP;CANICONIZE=F&uSEP;CANZOOM=F&uSEP;CANCLOSE=&uSEP;AUTOCLOSE=F&uSEP;SYSMENU=&uSEP;BACKIMAGE=&uSEP;IMAGE=&uSEP;MODAL=F&uSEP;ATTACHED=&uSEP;SECONDARY=T&uSEP;UTYPE=SECONDARY&uSEP;DIRECTION=&uSEP;SPLIT=&uSEP;NOFORMSCROLL=&uSEP;BACKCOLOR=&uSEP;FORECOLOR=&uSEP;KEEPLAYOUT=&uSEP;LAYOUTSTORAGE=&uSEP;HALIGN=&uSEP;VALIGN=&uSEP;HSCALE=&uSEP;VSCALE=&uSEP;PRESERVEASPECT=&uSEP;OKBUTTON=&uSEP;WINDOWTYPE=SECONDARY&uSEP;TABPAGE=</DAT>
+<DAT name="SFUNC" xml:space='preserve'>#include U:zProcError  ; Report an unexpected failure in a proc statement.
+</DAT>
+<DAT name="TPLACTUAL2" xml:space='preserve'>#define LVM_FIRST = 4096 ; &amp;H1000
+
+; //Folder View Styles
+#define LV_VIEW_ICON = 0 ; &amp;H0
+#define LV_VIEW_DETAILS = 1 ; &amp;H1
+#define LV_VIEW_SMALLICON = 2 ; &amp;H2
+#define LV_VIEW_LIST = 3 ; &amp;H3
+#define LV_VIEW_TILE = 4 ; &amp;H4
+#define EM_HIDEBALLOONTIP = 5380 ; &amp;H1504
+#define LVM_SETVIEW = 4238 ; &amp;H108E
+
+; //ListView Styles (LVS_)
+#define LVS_ICON = 0 ; &amp;H0
+#define LVS_REPORT = 1 ; &amp;H1
+#define LVS_SMALLICON = 2 ; &amp;H2
+#define LVS_LIST = 3 ; &amp;H3
+;#define LVS_TYPEMASK = &amp;H3
+;#define LVS_SINGLESEL = &amp;H4
+;#define LVS_SHOWSELALWAYS = &amp;H8
+;#define LVS_SORTASCENDING = &amp;H10
+;#define LVS_SORTDESCENDING = &amp;H20
+;#define LVS_SHAREIMAGELISTS = &amp;H40
+;#define LVS_NOLABELWRAP = &amp;H80
+;#define LVS_AUTOARRANGE = &amp;H100
+;#define LVS_EDITLABELS = &amp;H200
+;#define LVS_OWNERDATA = &amp;H1000 ; IE 3+ only
+;#define LVS_NOSCROLL = &amp;H2000
+
+;#define LVS_TYPESTYLEMASK = &amp;HFC00
+
+;#define LVS_ALIGNTOP = &amp;H0
+;#define LVS_ALIGNLEFT = &amp;H800
+;#define LVS_ALIGNMASK = &amp;HC00
+
+;#define LVS_OWNERDRAWFIXED = &amp;H400
+;#define LVS_NOCOLUMNHEADER = &amp;H4000
+;#define LVS_NOSORTHEADER = &amp;H8000&amp;
+
+; ListView Messages (LVM_) (Generic)
+#define LVM_GETBKCOLOR = (&lt;LVM_FIRST&gt; + 0)
+#define LVM_SETBKCOLOR = (&lt;LVM_FIRST&gt; + 1)
+#define LVM_GETIMAGELIST = (&lt;LVM_FIRST&gt; + 2)
+#define LVM_SETIMAGELIST = (&lt;LVM_FIRST&gt; + 3)
+#define LVM_GETITEM = (&lt;LVM_FIRST&gt; + 5)
+#define LVM_GETITEMCOUNT = (&lt;LVM_FIRST&gt; + 4)
+#define LVM_DELETEITEM = (&lt;LVM_FIRST&gt; + 8)
+#define LVM_DELETEALLITEMS = (&lt;LVM_FIRST&gt; + 9)
+#define LVM_GETCALLBACKMASK = (&lt;LVM_FIRST&gt; + 10)
+#define LVM_SETCALLBACKMASK = (&lt;LVM_FIRST&gt; + 11)
+#define LVM_GETNEXTITEM = (&lt;LVM_FIRST&gt; + 12)
+
+#define LVM_SETITEMPOSITION = (&lt;LVM_FIRST&gt; + 15)
+#define LVM_GETITEMPOSITION = (&lt;LVM_FIRST&gt; + 16)
+
+#define LVM_HITTEST = (&lt;LVM_FIRST&gt; + 18)
+#define LVM_ENSUREVISIBLE = (&lt;LVM_FIRST&gt; + 19)
+#define LVM_SCROLL = (&lt;LVM_FIRST&gt; + 20)
+#define LVM_REDRAWITEMS = (&lt;LVM_FIRST&gt; + 21)
+#define LVM_ARRANGE = (&lt;LVM_FIRST&gt; + 22)
+
+#define LVM_GETEDITCONTROL = (&lt;LVM_FIRST&gt; + 24)
+
+#define LVM_DELETECOLUMN = (&lt;LVM_FIRST&gt; + 28)
+#define LVM_GETCOLUMNWIDTH = (&lt;LVM_FIRST&gt; + 29)
+#define LVM_SETCOLUMNWIDTH = (&lt;LVM_FIRST&gt; + 30)
+
+#define LVM_GETHEADER = (&lt;LVM_FIRST&gt; + 31)     ; IE 3 and later
+
+#define LVM_CREATEDRAGIMAGE = (&lt;LVM_FIRST&gt; + 33)
+#define LVM_GETVIEWRECT = (&lt;LVM_FIRST&gt; + 34)
+#define LVM_GETTEXTCOLOR = (&lt;LVM_FIRST&gt; + 35)
+#define LVM_SETTEXTCOLOR = (&lt;LVM_FIRST&gt; + 36)
+#define LVM_GETTEXTBKCOLOR = (&lt;LVM_FIRST&gt; + 37)
+#define LVM_SETTEXTBKCOLOR = (&lt;LVM_FIRST&gt; + 38)
+#define LVM_GETTOPINDEX = (&lt;LVM_FIRST&gt; + 39)
+#define LVM_GETCOUNTPERPAGE = (&lt;LVM_FIRST&gt; + 40)
+#define LVM_GETORIGIN = (&lt;LVM_FIRST&gt; + 41)
+#define LVM_UPDATE = (&lt;LVM_FIRST&gt; + 42)
+#define LVM_SETITEMSTATE = (&lt;LVM_FIRST&gt; + 43)
+#define LVM_GETITEMSTATE = (&lt;LVM_FIRST&gt; + 44)
+#define LVM_GETITEMTEXT = (&lt;LVM_FIRST&gt; + 45)
+#define LVM_SETITEMCOUNT = (&lt;LVM_FIRST&gt; + 47)
+#define LVM_SORTITEMS = (&lt;LVM_FIRST&gt; + 48)
+#define LVM_SETITEMPOSITION32 = (&lt;LVM_FIRST&gt; + 49)
+#define LVM_GETSELECTEDCOUNT = (&lt;LVM_FIRST&gt; + 50)
+#define LVM_GETITEMSPACING = (&lt;LVM_FIRST&gt; + 51)
+
+#define LVM_SETICONSPACING = (&lt;LVM_FIRST&gt; + 53)     ; IE 3 and later
+#define LVM_SETEXTENDEDLISTVIEWSTYLE = (&lt;LVM_FIRST&gt; + 54)
+#define LVM_GETEXTENDEDLISTVIEWSTYLE = (&lt;LVM_FIRST&gt; + 55)
+
+#define LVM_GETSUBITEMRECT = (&lt;LVM_FIRST&gt; + 56)
+#define LVM_SUBITEMHITTEST = (&lt;LVM_FIRST&gt; + 57)
+#define LVM_SETCOLUMNORDERARRAY = (&lt;LVM_FIRST&gt; + 58)
+#define LVM_GETCOLUMNORDERARRAY = (&lt;LVM_FIRST&gt; + 59)
+#define LVM_SETHOTITEM = (&lt;LVM_FIRST&gt; + 60)
+#define LVM_GETHOTITEM = (&lt;LVM_FIRST&gt; + 61)
+#define LVM_SETHOTCURSOR = (&lt;LVM_FIRST&gt; + 62)
+#define LVM_GETHOTCURSOR = (&lt;LVM_FIRST&gt; + 63)
+#define LVM_APPROXIMATEVIEWRECT = (&lt;LVM_FIRST&gt; + 64)
+#define LVM_SETWORKAREA = (&lt;LVM_FIRST&gt; + 65)
+
+#define LVM_GETSELECTIONMARK = (&lt;LVM_FIRST&gt; + 66) ; IE 4 and later
+#define LVM_SETSELECTIONMARK = (&lt;LVM_FIRST&gt; + 67) ; IE 4 and later
+#define LVM_GETWORKAREA = (&lt;LVM_FIRST&gt; + 70)      ; IE 4 and later
+#define LVM_SETHOVERTIME = (&lt;LVM_FIRST&gt; + 71)     ; IE 4 and later
+#define LVM_GETHOVERTIME = (&lt;LVM_FIRST&gt; + 72)     ; IE 4 and later
+
+; //ListView Extended Style Messages (LVS_EX_) (Win95)
+#define LVS_EX_GRIDLINES = 1 ; &amp;H1
+#define LVS_EX_SUBITEMIMAGES = 2 ; &amp;H2
+#define LVS_EX_CHECKBOXES = 4 ; &amp;H4
+#define LVS_EX_TRACKSELECT = 8 ; &amp;H8
+#define LVS_EX_HEADERDRAGDROP = 16 ; &amp;H10
+#define LVS_EX_FULLROWSELECT =  32 ; &amp;H20    ; applies to report mode only
+;#define LVS_EX_ONECLICKACTIVATE = &amp;H40
+;#define LVS_EX_TWOCLICKACTIVATE = &amp;H80
+;#define LVS_EX_FLATSB = &amp;H100          ; cannot be cleared - Win32 &amp; IE4 and later
+;#define LVS_EX_REGIONAL = &amp;H200        ; Win32 &amp; IE4 and later
+#define LVS_EX_INFOTIP = 1024 ; &amp;H400         ; listview does InfoTips for you - Win32 &amp; IE4 and later
+#define LVS_EX_LABELTIP = 16384 ; &amp;H4000
+
+#define LVIS_STATEIMAGEMASK = 61440 ; &amp;HF000
+
+#define LVSCW_AUTOSIZE = -1
+#define LVSCW_AUTOSIZE_USEHEADER = -2
+
+#define HDM_GETITEMCOUNT = 4608 ; &amp;H1200</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T16:38:26.00</DAT>
+<DAT name="ULABEL">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_DBMS">XXX</DAT>
+<DAT name="U_UPD">Y</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="U_SVCUSE">N</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+<DAT name="UWIDGETTYPE">U_NONE</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T19:55:28.00</DAT>
+<DAT name="ULABEL">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T18:23:55.00</DAT>
+<DAT name="ULABEL">BTN1</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETVIEW&gt;, &lt;LV_VIEW_ICON&gt;, 0)
+</DAT>
+<DAT name="INITVALUE">Icon</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T18:20:30.00</DAT>
+<DAT name="ULABEL">BTN2</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETVIEW&gt;, &lt;LV_VIEW_LIST&gt;, 0)
+</DAT>
+<DAT name="INITVALUE">List</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T18:25:27.00</DAT>
+<DAT name="ULABEL">BTN3</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETVIEW&gt;, &lt;LV_VIEW_DETAILS&gt;, 0)
+</DAT>
+<DAT name="INITVALUE">Details</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T18:30:51.00</DAT>
+<DAT name="ULABEL">BTN4</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETVIEW&gt;, &lt;LV_VIEW_TILE&gt;, 0)
+</DAT>
+<DAT name="INITVALUE">Tile</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-09-10T16:23:02.00</DAT>
+<DAT name="ULABEL">BTN50</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>variables
+	numeric hWnd, nItemCount, nCount
+	string sSelected
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETHEADER&gt;, 0, 0)
+activate "USER32".SendMessage($status, &lt;HDM_GETITEMCOUNT&gt;, 0, 0)
+nItemCount = $status - 1
+for nCount = 0 to nItemCount
+	activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETCOLUMNWIDTH&gt;, nCount, &lt;LVSCW_AUTOSIZE&gt;)
+endfor
+</DAT>
+<DAT name="INITVALUE" xml:space='preserve'>Size to Content</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-09-10T16:23:02.00</DAT>
+<DAT name="ULABEL">BTN51</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>variables
+	numeric hWnd, nItemCount, nCount
+	string sSelected
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETHEADER&gt;, 0, 0)
+activate "USER32".SendMessage($status, &lt;HDM_GETITEMCOUNT&gt;, 0, 0)
+nItemCount = $status - 1
+for nCount = 0 to nItemCount
+	activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETCOLUMNWIDTH&gt;, nCount, &lt;LVSCW_AUTOSIZE_USEHEADER&gt;)
+endfor
+</DAT>
+<DAT name="INITVALUE" xml:space='preserve'>Size to Header</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-09-10T16:23:02.00</DAT>
+<DAT name="ULABEL">BTN52</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>variables
+	numeric nItemCount
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETHEADER&gt;, 0, 0)
+activate "USER32".SendMessage($status, &lt;HDM_GETITEMCOUNT&gt;, 0, 0)
+nItemCount = $status - 1
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETCOLUMNWIDTH&gt;, nItemCount, &lt;LVSCW_AUTOSIZE_USEHEADER&gt;)
+</DAT>
+<DAT name="INITVALUE" xml:space='preserve'>Maximize Width</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T09:32:35.00</DAT>
+<DAT name="ULABEL">BTN99</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">X</DAT>
+<DAT name="INTERFACEMOD">VC1</DAT>
+<DAT name="WIDGETTYPE">COMMANDBUTTON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="DETAIL" xml:space='preserve'>variables
+	numeric hWnd, nItemCount, nCount
+	string sSelected
+endvariables
+debug
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETITEMCOUNT&gt;, 0, 0)
+nItemCount = $status - 1
+activate "USER32".SendMessagelvm(FLD3.DUM, &lt;LVM_GETITEM&gt;, 0, "LVITEM");
+
+for nCount = 0 to nItemCount
+	activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETITEMSTATE&gt;, nCount, &lt;LVIS_STATEIMAGEMASK&gt;)
+	putmess "LVM_GETITEMSTATE [%%nCount] = %%$status"
+	if ($status = 8192)
+		putitem sSelected, -1, $idpart($itemnr(nCount+1, $valrep(TREE1)))
+	endif
+endfor
+message/info "Selected: %%sSelected"</DAT>
+<DAT name="INITVALUE" xml:space='preserve'>Get Selected...</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">CCHTEXTMAX</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:40.00</DAT>
+<DAT name="ULABEL">CCOLUMNS</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T18:03:35.00</DAT>
+<DAT name="ULABEL">CHK1</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">B</DAT>
+<DAT name="WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric styles
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETEXTENDEDLISTVIEWSTYLE&gt;, 0, 0)
+styles = $status
+if (@$fieldname)
+	styles += &lt;LVS_EX_CHECKBOXES&gt;
+else
+	styles -= &lt;LVS_EX_CHECKBOXES&gt;
+endif
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETEXTENDEDLISTVIEWSTYLE&gt;, 0, styles)
+</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T18:06:35.00</DAT>
+<DAT name="ULABEL">CHK2</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">B</DAT>
+<DAT name="WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric styles
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETEXTENDEDLISTVIEWSTYLE&gt;, 0, 0)
+styles = $status
+if (@$fieldname)
+	styles += &lt;LVS_EX_GRIDLINES&gt;
+else
+	styles -= &lt;LVS_EX_GRIDLINES&gt;
+endif
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETEXTENDEDLISTVIEWSTYLE&gt;, 0, styles)
+</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-27T16:14:14.00</DAT>
+<DAT name="ULABEL">CHK3</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">B</DAT>
+<DAT name="WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric styles
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETEXTENDEDLISTVIEWSTYLE&gt;, 0, 0)
+styles = $status
+if (@$fieldname)
+	styles += &lt;LVS_EX_FULLROWSELECT&gt;
+else
+	styles -= &lt;LVS_EX_FULLROWSELECT&gt;
+endif
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETEXTENDEDLISTVIEWSTYLE&gt;, 0, styles)
+</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-27T16:16:31.00</DAT>
+<DAT name="ULABEL">CHK4</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">B</DAT>
+<DAT name="WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric styles
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETEXTENDEDLISTVIEWSTYLE&gt;, 0, 0)
+styles = $status
+if (@$fieldname)
+	styles += &lt;LVS_EX_HEADERDRAGDROP&gt;
+else
+	styles -= &lt;LVS_EX_HEADERDRAGDROP&gt;
+endif
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETEXTENDEDLISTVIEWSTYLE&gt;, 0, styles)
+</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-09-01T14:25:04.00</DAT>
+<DAT name="ULABEL">CHK5</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">B</DAT>
+<DAT name="WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric styles
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETEXTENDEDLISTVIEWSTYLE&gt;, 0, 0)
+styles = $status
+if (@$fieldname)
+	styles += &lt;LVS_EX_INFOTIP&gt;
+else
+	styles -= &lt;LVS_EX_INFOTIP&gt;
+endif
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETEXTENDEDLISTVIEWSTYLE&gt;, 0, styles)
+</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-09-01T14:25:04.00</DAT>
+<DAT name="ULABEL">CHK6</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric styles
+endvariables
+
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_GETEXTENDEDLISTVIEWSTYLE&gt;, 0, 0)
+styles = $status
+if (@$fieldname)
+	styles += &lt;LVS_EX_LABELTIP&gt;
+else
+	styles -= &lt;LVS_EX_LABELTIP&gt;
+endif
+activate "USER32".SendMessage(FLD3.DUM, &lt;LVM_SETEXTENDEDLISTVIEWSTYLE&gt;, 0, styles)
+</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T16:40:34.00</DAT>
+<DAT name="ULABEL">FLD1</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T16:40:39.00</DAT>
+<DAT name="ULABEL">FLD2</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2013-04-06T17:30:02.00</DAT>
+<DAT name="ULABEL">FLD3</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:40.00</DAT>
+<DAT name="ULABEL">IGROUP</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:40.00</DAT>
+<DAT name="ULABEL">IGROUPID</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">IIMAGE</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:40.00</DAT>
+<DAT name="ULABEL">IINDENT</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">ISUBITEM</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">ITEM</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">LPARAM</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">MASK</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:40.00</DAT>
+<DAT name="ULABEL">PICOLFMT</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">PSZTEXT</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:40.00</DAT>
+<DAT name="ULABEL">PUCOLUMNS</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">STATE</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-13T20:04:39.00</DAT>
+<DAT name="ULABEL">STATEMASK</DAT>
+<DAT name="GRP">LVITEM</DAT>
+<DAT name="UBASE">WINAPI</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-17T22:28:08.00</DAT>
+<DAT name="ULABEL">TREE1</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">DUM</DAT>
+<DAT name="UFORM">FRM_TREE</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">VC*</DAT>
+<DAT name="WIDGETTYPE">TREE</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>variables
+	numeric hWnd
+	string lpClassName
+endvariables
+
+activate "USER32".GetFocus()
+hWnd = $status
+activate "USER32".GetClassName(hWnd, lpClassName, 255)
+if (lpClassName = "SysListView32")
+	FLD3.DUM = hWnd
+	activate "USER32".SendMessage(hWnd, &lt;LVM_GETSELECTIONMARK&gt;, 0, 0)
+	FLD1.DUM = $status + 1
+	activate "USER32".SendMessage(hWnd, &lt;LVM_GETITEMCOUNT&gt;, 0, 0)
+	FLD2.DUM = $status
+endif
+</DAT>
+<DAT name="WIDGETCREATE" xml:space='preserve'>LISTONLY=T&uSEP;LISTVIEW=R&uSEP;LABELS=Column1&uNOT;Column2&uNOT;Column3&uNOT;Column4&uSEP;FORMATS=TL&uNOT;NR&uNOT;CL&uNOT;IL&uSEP;AUTOEXPAND=F&uSEP;TYPE1=NODE&uSEP;NODE1=F&uSEP;NORMAL1=^U_ACCEPT&uSEP;SELECTED1=^U_ACCEPT</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="UFTRIGGERS" xml:space='preserve'>; -- start triggers for tree widget 
+
+trigger Expand
+	params
+		string control: in ; TREE | LIST | KEYBOARD
+		string item: in
+	endparams
+	
+end ; trigger Expand
+
+trigger Collapse
+	params
+		string control: in ; TREE | LIST | KEYBOARD
+		string item: in
+	endparams
+	
+end ; trigger Collapse
+
+trigger Open
+	params
+		string control: in ; TREE | LIST | KEYBOARD
+		string item: in
+	endparams
+	
+end ; trigger Open
+
+trigger Close
+	params
+		string control: in ; TREE | LIST | KEYBOARD
+		string item: in
+	endparams
+	
+end ; trigger Close
+
+trigger doubleClick
+	params
+		string control: in ; TREE | LIST | KEYBOARD
+		string item: in
+	endparams
+	
+end ; trigger doubleClick
+
+trigger columnSorted
+	params
+		numeric columnId: in
+		string sortingOrder: in ; ASC | DESC
+	endparams
+	
+	variables
+		numeric hWnd
+		string lpClassName
+		string vr1
+	endvariables
+debug
+vr1 = $sortlist($valrep(tree1), "$string(1):a")
+	$valrep(tree1)=vr1
+	activate "USER32".GetFocus()
+	hWnd = $status
+	activate "USER32".GetClassName(hWnd, lpClassName, 255)
+	if (lpClassName = "SysListView32")
+		FLD3.DUM = hWnd
+		activate "USER32".SendMessage(hWnd, &lt;LVM_GETSELECTIONMARK&gt;, 0, 0)
+		FLD1.DUM = $status + 1
+		activate "USER32".SendMessage(hWnd, &lt;LVM_GETITEMCOUNT&gt;, 0, 0)
+		FLD2.DUM = $status
+	endif
+	
+end ; trigger columnSorted
+
+trigger columnWidth
+	params
+		numeric id: in
+		numeric width: in
+	endparams
+	
+end ; trigger columnWidth
+
+trigger representationChanging
+	params
+		string itemValue: in
+	endparams
+	
+end ; trigger representationChanging
+
+trigger representationChanged ; Only works if tree widget property INLINEEDIT=TRUE
+	params
+		string itemValue: in
+		string control: in ; TREE | LIST
+		string newRepresentation: in
+	endparams
+	variables
+		string treeItem, listUpdate
+	endvariables
+	
+	getitem/id treeItem, $valrep, itemValue
+	putitem treeItem, 3, newRepresentation       ; Change representation
+	listUpdate = "0="                            ; Indicate partial valrep update
+	putitem/id listUpdate, itemValue, treeItem
+	$valrep = listUpdate
+	
+end ; trigger representationChanged
+
+; start drag &amp; drop triggers for tree widget
+
+trigger moveTo
+	params
+		string dragvalue: in
+		string dropformat: in
+		string itemvalue: in
+		numeric numberofobjects: in
+		numeric index: in
+	endparams
+	
+end ; trigger moveTo
+
+trigger moveFrom
+	params
+		string dragvalue: in
+		string dropformat: in
+		numeric numberofobjects: in
+		numeric index: in
+	endparams
+	
+end ; trigger moveFrom
+
+trigger moveWithin
+	params
+		string dragvalue: in
+		string dropformat: in
+		string itemvalue: in
+		numeric numberofobjects: in
+		numeric index: in
+	endparams
+	
+end ; trigger moveWithin
+
+trigger copyTo
+	params
+		string dragvalue: in
+		string dropformat: in
+		string itemvalue: in
+		numeric numberofobjects: in
+		numeric index: in
+	endparams
+	
+end ; trigger copyTo
+
+trigger createShortcutTo
+	params
+		string dragvalue: in
+		string dropformat: in
+		string itemvalue: in
+		numeric numberofobjects: in
+		numeric index: in
+	endparams
+	
+end ; trigger createShortcutTo
+
+; -- end triggers for tree widget
+</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
