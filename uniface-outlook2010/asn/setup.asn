@@ -1,8 +1,0 @@
-#file .\asn\idf.asn
-
-[SETTINGS]
-$putmess_logfile	 .\log\setup_%p.log /append
-$transcript_log_file .\log\setup_%p.log /append
-
-[RESOURCES]
-D:\UnifacePackages\ProjectSetup\ProjectSetup.uar
